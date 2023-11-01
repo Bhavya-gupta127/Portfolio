@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
@@ -29,6 +30,9 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
+      {/* <section id="Contact">
+        <Footer />
+      </section> */}
       {/* Framer Motion Crash Course */}
       {/* <Test/>
     <Test/> */}
